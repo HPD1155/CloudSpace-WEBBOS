@@ -1,0 +1,40 @@
+body {
+    background-image: url("../images/background_gradient.svg");
+    background-size: cover;
+    margin: 0px;
+}
+.signuparea {
+    background-image: url(../images/RegMenucolor.svg);
+    background-size: cover;
+    height: 100vh;
+    width: 40%;
+    border-top-right-radius: 7%;
+    border-bottom-right-radius: 7%;
+}
+.signupbutton {
+    position: relative;
+    left: 30%;
+    top: 70%;
+    border: solid 0px #f3b6ff;
+    border-end-start-radius: 80px;
+    border-end-end-radius: 80px;
+    border-start-end-radius: 80px;
+    border-start-start-radius: 80px;
+    transition: border-width 0.5s;
+}
+.signupbutton:hover {
+    border-width: 10px;
+}
+.info {
+    position: relative;
+    width: 73%;
+    height: 9%;
+    bottom: 3%;
+    left: 10%;
+    border-color: whitesmoke;
+    border-radius: 10px;
+    font-size: x-large;
+    background-color: rgb(56, 56, 56);
+    color: aliceblue;
+    margin-top: 5%;
+}
